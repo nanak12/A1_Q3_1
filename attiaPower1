@@ -1,4 +1,8 @@
-
+/**
+ * @(#)attiaPower1.java
+ * @author Mohamed Attia 
+ * @version 1.00 2012/3/6
+ */
 public class attiaPower1 {
   public static void main (String []args){
 		
