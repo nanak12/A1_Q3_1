@@ -1,0 +1,30 @@
+
+public class attiaPower1 {
+  public static void main (String []args){
+		
+		System.out.println("the resulte is : "+ recPower(1.1,5));
+		
+	}
+	public static double recPower(double x, int y)
+    {
+        double result = 0;
+        
+        if(y >= 0)
+        {
+            if (y == 1)
+            {
+                result = x;
+            }
+            else if (y == 0)
+            {
+                result = 1;
+            }
+            if(y > 1)
+            {
+                result = x * recPower(x, y-1);
+            }
+        }
+		
+        return result;
+    }
+}
